@@ -1,1 +1,2 @@
 PHPRC=php.ini
+DOCUMENTROOT=/html
