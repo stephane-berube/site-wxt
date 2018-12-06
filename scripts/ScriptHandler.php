@@ -35,6 +35,7 @@ class ScriptHandler {
       'modules',
       'profiles',
       'themes',
+      'defaultsite',
     ];
 
     // Required for unit testing.
@@ -46,25 +47,25 @@ class ScriptHandler {
     }
 
     // Prepare the settings file for installation.
-    if (!$fs->exists($root . '/sites/default/settings.php') and $fs->exists($root . '/sites/default/default.settings.php')) {
-      $fs->copy($root . '/sites/default/default.settings.php', $root . '/sites/default/settings.php');
-      $fs->chmod($root . '/sites/default/settings.php', 0666);
-      $event->getIO()->write("Create a sites/default/settings.php file with chmod 0666");
+    if (!$fs->exists($root . '/defaultsite/default/settings.php') and $fs->exists($root . '/sites/default/default.settings.php')) {
+      $fs->copy($root . '/sites/default/default.settings.php', $root . '/defaultsite/default/settings.php');
+      $fs->chmod($root . '/defaultsite/default/settings.php', 0666);
+      $event->getIO()->write("Create a defaultsite/default/settings.php file with chmod 0666");
     }
 
     // Prepare the services file for installation.
-    if (!$fs->exists($root . '/sites/default/services.yml') and $fs->exists($root . '/sites/default/default.services.yml')) {
-      $fs->copy($root . '/sites/default/default.services.yml', $root . '/sites/default/services.yml');
-      $fs->chmod($root . '/sites/default/services.yml', 0666);
+    if (!$fs->exists($root . '/defaultsite/default/services.yml') and $fs->exists($root . '/sites/default/default.services.yml')) {
+      $fs->copy($root . '/sites/default/default.services.yml', $root . '/defaultsite/default/services.yml');
+      $fs->chmod($root . '/defaultsite/default/services.yml', 0666);
       $event->getIO()->write("Create a sites/default/services.yml file with chmod 0666");
     }
 
     // Create the files directory with chmod 0777.
-    if (!$fs->exists($root . '/sites/default/files')) {
+    if (!$fs->exists($root . '/defaultsite/default/files')) {
       $oldmask = umask(0);
-      $fs->mkdir($root . '/sites/default/files', 0777);
+      $fs->mkdir($root . '/defaultsite/default/files', 0777);
       umask($oldmask);
-      $event->getIO()->write("Create a sites/default/files directory with chmod 0777");
+      $event->getIO()->write("Create a defaultsite/default/files directory with chmod 0777");
     }
 
     // Rename Chosen to minified asset.
