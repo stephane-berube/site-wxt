@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -d /opt/app-root/src/html/sites/default ]
+if [ -f /opt/app-root/src/html/sites/default/settings.php ]
 then
     echo "Data exists, skip copying default data."
 else
