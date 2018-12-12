@@ -151,6 +151,12 @@ class ScriptHandler {
       $event->getIO()->write("Create a tempsite/default/default.settings.php file");
     }
 
+    // Prepare the example file for installation.
+    if (!$fs->exists($root . '/tempsite/example.sites.php') and $fs->exists($root . '/sites/example.sites.php')) {
+      $fs->copy($root . '/sites/example.sites.php', $root . '/tempsite/example.sites.php');
+      $event->getIO()->write("Create a tempsite/example.sites.php file");
+    }
+
     // Prepare the services file for installation.
     if (!$fs->exists($root . '/tempsite/default/default.services.yml') and $fs->exists($root . '/sites/default/default.services.yml')) {
       $fs->copy($root . '/sites/default/default.services.yml', $root . '/tempsite/default/default.services.yml');
@@ -214,6 +220,12 @@ class ScriptHandler {
       $fs->copy($root . '/sites/default/default.settings.php', $root . '/tempsite/default/default.settings.php');
       //$fs->chmod($root . '/sites/default/settings.php', 0666);
       $event->getIO()->write("Create a tempsite/default/default.settings.php file");
+    }
+
+    // Prepare the example file for installation.
+    if (!$fs->exists($root . '/tempsite/example.sites.php') and $fs->exists($root . '/sites/example.sites.php')) {
+      $fs->copy($root . '/sites/example.sites.php', $root . '/tempsite/example.sites.php');
+      $event->getIO()->write("Create a tempsite/example.sites.php file");
     }
 
     // Prepare the services file for installation.
