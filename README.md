@@ -18,6 +18,11 @@ downloading and instantiating a Docker based Drupal infrastructure.
 - [README.md][docker-scaffold-readme]
 - [template/docker/README.md][docker-readme]
 
+## OpenShift Support (s2i)
+
+This fork is "Source to Image (s2i)" ready.  This fork can be built using the PHP 7.1 s2i builder.
+[PHP 7.1 s2i](https://github.com/sclorg/s2i-php-container/tree/master/7.1)
+
 ## Maintenance
 
 List of common commands are as follows:
