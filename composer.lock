@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de5c05d7217f6325edcaee6d2687a933",
+    "content-hash": "c55eb029ca7c2c82ba34b436e884d8d7",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -2298,7 +2298,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/blog"
             },
-            "time": "2016-12-29 10:40:43"
+            "time": "2016-12-29T10:40:43+00:00"
         },
         {
             "name": "drupal/bootstrap",
@@ -2494,7 +2494,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.1",
-                    "datestamp": "1547825580",
+                    "datestamp": "1537369980",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3989,10 +3989,6 @@
                 {
                     "name": "jmiccolis",
                     "homepage": "https://www.drupal.org/user/31731"
-                },
-                {
-                    "name": "joseph.olstad",
-                    "homepage": "https://www.drupal.org/user/1321830"
                 },
                 {
                     "name": "mpotter",
@@ -5562,7 +5558,7 @@
                 "source": "https://www.drupal.org/project/media_entity_document",
                 "issues": "https://www.drupal.org/project/issues/media_entity_document"
             },
-            "time": "2017-10-24 14:14:45"
+            "time": "2017-10-24T14:14:45+00:00"
         },
         {
             "name": "drupal/media_entity_image",
@@ -6232,10 +6228,6 @@
                 "GPL-2.0-or-later"
             ],
             "authors": [
-                {
-                    "name": "joelpittet",
-                    "homepage": "https://www.drupal.org/user/160302"
-                },
                 {
                     "name": "samuel.mortenson",
                     "homepage": "https://www.drupal.org/user/2582268"
@@ -7044,20 +7036,23 @@
         },
         {
             "name": "drupal/salesforce",
-            "version": "dev-3.x",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/salesforce",
-                "reference": "ffe5c93f5cc33d1999b624c229b22dc98b94df4d"
+                "reference": "8.x-3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/salesforce-8.x-3.1.zip",
+                "reference": "8.x-3.1",
+                "shasum": "8fe32bec5d1ee621742e4db9de090f2ca609fb74"
             },
             "require": {
                 "consolidation/output-formatters": "^3.2.0",
                 "drupal/core": "~8.0",
                 "drupal/dynamic_entity_reference": "^2.0@alpha",
-                "drupal/encrypt": "^3.0@rc",
-                "drupal/typed_data": "^1.0@alpha",
-                "lusitanian/oauth": "^0.8.11",
-                "messageagency/force.com-toolkit-for-php": "^1.0.0"
+                "drupal/encrypt": "^3.0@rc"
             },
             "require-dev": {
                 "drupal/dynamic_entity_reference": "~2.0",
@@ -7071,11 +7066,11 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.2+5-dev",
-                    "datestamp": "1546983480",
+                    "version": "8.x-3.1",
+                    "datestamp": "1544039328",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 },
                 "drush": {
@@ -7137,8 +7132,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/salesforce",
                 "issues": "https://drupal.org/project/issues/salesforce"
-            },
-            "time": "2019-01-18 17:49:35"
+            }
         },
         {
             "name": "drupal/scheduled_updates",
@@ -7921,63 +7915,6 @@
             "homepage": "https://www.drupal.org/project/token_filter",
             "support": {
                 "source": "http://cgit.drupalcode.org/token_filter"
-            }
-        },
-        {
-            "name": "drupal/typed_data",
-            "version": "1.0.0-alpha2",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/typed_data",
-                "reference": "8.x-1.0-alpha2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/typed_data-8.x-1.0-alpha2.zip",
-                "reference": "8.x-1.0-alpha2",
-                "shasum": "a4e5f9fe5ad5842c335414ae2cbfb2aed69ef0fe"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "dev-master",
-                "drupal/coder": "8.2.*",
-                "squizlabs/php_codesniffer": "2.9.*",
-                "symfony/yaml": "3.*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-alpha2",
-                    "datestamp": "1536437580",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "TR",
-                    "homepage": "https://www.drupal.org/user/202830"
-                },
-                {
-                    "name": "fago",
-                    "homepage": "https://www.drupal.org/user/16747"
-                }
-            ],
-            "description": "Extends the core Typed Data API with new APIS and features.",
-            "homepage": "https://www.drupal.org/project/typed_data",
-            "support": {
-                "source": "http://cgit.drupalcode.org/typed_data"
             }
         },
         {
@@ -8914,7 +8851,7 @@
                 "GPL-2.0+"
             ],
             "description": "Project template for Drupal 8 sites built with the WxT distribution.",
-            "time": "2019-01-17 02:41:15"
+            "time": "2019-01-17T02:41:15+00:00"
         },
         {
             "name": "drush/drush",
@@ -9972,73 +9909,6 @@
             "time": "2017-12-23T23:33:42+00:00"
         },
         {
-            "name": "lusitanian/oauth",
-            "version": "v0.8.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Lusitanian/PHPoAuthLib.git",
-                "reference": "fc11a53db4b66da555a6a11fce294f574a8374f9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Lusitanian/PHPoAuthLib/zipball/fc11a53db4b66da555a6a11fce294f574a8374f9",
-                "reference": "fc11a53db4b66da555a6a11fce294f574a8374f9",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*",
-                "predis/predis": "0.8.*@dev",
-                "squizlabs/php_codesniffer": "2.*",
-                "symfony/http-foundation": "~2.1"
-            },
-            "suggest": {
-                "ext-openssl": "Allows for usage of secure connections with the stream-based HTTP client.",
-                "predis/predis": "Allows using the Redis storage backend.",
-                "symfony/http-foundation": "Allows using the Symfony Session storage backend."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "OAuth": "src",
-                    "OAuth\\Unit": "tests"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David Desberg",
-                    "email": "david@daviddesberg.com"
-                },
-                {
-                    "name": "Elliot Chance",
-                    "email": "elliotchance@gmail.com"
-                },
-                {
-                    "name": "Pieter Hordijk",
-                    "email": "info@pieterhordijk.com"
-                }
-            ],
-            "description": "PHP 5.3+ oAuth 1/2 Library",
-            "keywords": [
-                "Authentication",
-                "authorization",
-                "oauth",
-                "security"
-            ],
-            "time": "2018-02-14T22:37:14+00:00"
-        },
-        {
             "name": "masterminds/html5",
             "version": "2.5.0",
             "source": {
@@ -10104,41 +9974,6 @@
                 "xml"
             ],
             "time": "2018-12-27T22:03:43+00:00"
-        },
-        {
-            "name": "messageagency/force.com-toolkit-for-php",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/messageagency/Forcecom-Toolkit-for-PHP.git",
-                "reference": "17193448b23d06e4b6af30ab92e211cea5e70bc8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/messageagency/Forcecom-Toolkit-for-PHP/zipball/17193448b23d06e4b6af30ab92e211cea5e70bc8",
-                "reference": "17193448b23d06e4b6af30ab92e211cea5e70bc8",
-                "shasum": ""
-            },
-            "require": {
-                "ext-soap": "^7.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "soapclient"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "A wrapper for the Force.com Web Services SOAP API",
-            "time": "2018-12-10T15:37:23+00:00"
         },
         {
             "name": "mkalkbrenner/php-htmldiff-advanced",
@@ -11620,7 +11455,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -14485,6 +14320,63 @@
             "time": "2017-12-06T20:35:40+00:00"
         },
         {
+            "name": "drupal/typed_data",
+            "version": "1.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/typed_data",
+                "reference": "8.x-1.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/typed_data-8.x-1.0-alpha2.zip",
+                "reference": "8.x-1.0-alpha2",
+                "shasum": "a4e5f9fe5ad5842c335414ae2cbfb2aed69ef0fe"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "dev-master",
+                "drupal/coder": "8.2.*",
+                "squizlabs/php_codesniffer": "2.9.*",
+                "symfony/yaml": "3.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha2",
+                    "datestamp": "1536437580",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "TR",
+                    "homepage": "https://www.drupal.org/user/202830"
+                },
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                }
+            ],
+            "description": "Extends the core Typed Data API with new APIS and features.",
+            "homepage": "https://www.drupal.org/project/typed_data",
+            "support": {
+                "source": "http://cgit.drupalcode.org/typed_data"
+            }
+        },
+        {
             "name": "elfet/pure",
             "version": "v3.0.0",
             "source": {
@@ -14914,6 +14806,108 @@
                 "schema"
             ],
             "time": "2019-01-14T23:55:14+00:00"
+        },
+        {
+            "name": "lusitanian/oauth",
+            "version": "v0.8.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lusitanian/PHPoAuthLib.git",
+                "reference": "fc11a53db4b66da555a6a11fce294f574a8374f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lusitanian/PHPoAuthLib/zipball/fc11a53db4b66da555a6a11fce294f574a8374f9",
+                "reference": "fc11a53db4b66da555a6a11fce294f574a8374f9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "predis/predis": "0.8.*@dev",
+                "squizlabs/php_codesniffer": "2.*",
+                "symfony/http-foundation": "~2.1"
+            },
+            "suggest": {
+                "ext-openssl": "Allows for usage of secure connections with the stream-based HTTP client.",
+                "predis/predis": "Allows using the Redis storage backend.",
+                "symfony/http-foundation": "Allows using the Symfony Session storage backend."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "OAuth": "src",
+                    "OAuth\\Unit": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Desberg",
+                    "email": "david@daviddesberg.com"
+                },
+                {
+                    "name": "Elliot Chance",
+                    "email": "elliotchance@gmail.com"
+                },
+                {
+                    "name": "Pieter Hordijk",
+                    "email": "info@pieterhordijk.com"
+                }
+            ],
+            "description": "PHP 5.3+ oAuth 1/2 Library",
+            "keywords": [
+                "Authentication",
+                "authorization",
+                "oauth",
+                "security"
+            ],
+            "time": "2018-02-14T22:37:14+00:00"
+        },
+        {
+            "name": "messageagency/force.com-toolkit-for-php",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/messageagency/Forcecom-Toolkit-for-PHP.git",
+                "reference": "17193448b23d06e4b6af30ab92e211cea5e70bc8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/messageagency/Forcecom-Toolkit-for-PHP/zipball/17193448b23d06e4b6af30ab92e211cea5e70bc8",
+                "reference": "17193448b23d06e4b6af30ab92e211cea5e70bc8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-soap": "^7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "soapclient"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "A wrapper for the Force.com Web Services SOAP API",
+            "time": "2018-12-10T15:37:23+00:00"
         },
         {
             "name": "mikey179/vfsStream",
@@ -18060,7 +18054,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupalwxt/wxt": 20,
-        "drupal/salesforce": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": true,
