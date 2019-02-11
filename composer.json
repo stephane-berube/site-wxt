@@ -115,7 +115,8 @@
         "drush/drush": "^9.0",
         "drupalwxt/wxt": "dev-8.x-2.x",
         "drupal/keycloak": "1.x-dev",
-        "drupal/responsive_preview": "^1.0"
+        "drupal/responsive_preview": "^1.0",
+        "drupal/openid_connect": "1.x-dev"
     },
     "autoload": {
         "classmap": [

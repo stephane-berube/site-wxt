@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c649e678e77322c9e0f90cea52afb67",
+    "content-hash": "412167d63642ab02755ba73240777bcc",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -6406,20 +6406,14 @@
         },
         {
             "name": "drupal/openid_connect",
-            "version": "1.0.0-beta5",
+            "version": "dev-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/openid_connect",
-                "reference": "8.x-1.0-beta5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/openid_connect-8.x-1.0-beta5.zip",
-                "reference": "8.x-1.0-beta5",
-                "shasum": "696eecd663cb3ff6044a18d826787e66f6051599"
+                "reference": "e002d7e4e89c2a2c5c46e1b5e94abeb0138fa28a"
             },
             "require": {
-                "drupal/core": "~8.0"
+                "drupal/core": "^8.5"
             },
             "type": "drupal-module",
             "extra": {
@@ -6427,11 +6421,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta5",
-                    "datestamp": "1511434986",
+                    "version": "8.x-1.0-beta5+34-dev",
+                    "datestamp": "1524236580",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -6473,7 +6467,8 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/openid_connect",
                 "issues": "https://www.drupal.org/project/issues/openid_connect"
-            }
+            },
+            "time": "2018-04-24T01:01:41+00:00"
         },
         {
             "name": "drupal/page_manager",
@@ -17996,6 +17991,7 @@
     "stability-flags": {
         "drupalwxt/wxt": 20,
         "drupal/keycloak": 20,
+        "drupal/openid_connect": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": true,
