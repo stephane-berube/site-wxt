@@ -47,6 +47,14 @@
         {
             "type" : "composer",
             "url": "https://drupalwxt.github.io/composer-extdeps/"
+        },
+        {
+            "type" : "vcs",
+            "url": "https://github.com/stephane-berube/keycloak"
+        },
+        {
+            "type" : "vcs",
+            "url": "https://github.com/stephane-berube/openid_connect"
         }
     ],
     "scripts": {
@@ -114,9 +122,9 @@
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "drush/drush": "^9.0",
         "drupalwxt/wxt": "dev-8.x-2.x",
-        "drupal/keycloak": "1.x-dev",
+        "drupal/keycloak": "dev-custom",
         "drupal/responsive_preview": "^1.0",
-        "drupal/openid_connect": "1.x-dev"
+        "drupal/openid_connect": "dev-custom as 1.x-dev"
     },
     "autoload": {
         "classmap": [
