@@ -137,16 +137,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.90.5",
+            "version": "3.90.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ac48802401ae7da6f4716023eb093fc598a23995"
+                "reference": "4206c43ef904b24bc63680256e9f425cf32d53a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ac48802401ae7da6f4716023eb093fc598a23995",
-                "reference": "ac48802401ae7da6f4716023eb093fc598a23995",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4206c43ef904b24bc63680256e9f425cf32d53a1",
+                "reference": "4206c43ef904b24bc63680256e9f425cf32d53a1",
                 "shasum": ""
             },
             "require": {
@@ -215,7 +215,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-03-19T18:31:52+00:00"
+            "time": "2019-03-20T18:10:45+00:00"
         },
         {
             "name": "bower-asset/cropper",
@@ -3046,16 +3046,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.6.12",
+            "version": "8.6.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "f81e50dd6145c1d35797eb522f841a96804e9869"
+                "reference": "8d5b80030ac3f13df2d66aeef0ea388fd9a90632"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/f81e50dd6145c1d35797eb522f841a96804e9869",
-                "reference": "f81e50dd6145c1d35797eb522f841a96804e9869",
+                "url": "https://api.github.com/repos/drupal/core/zipball/8d5b80030ac3f13df2d66aeef0ea388fd9a90632",
+                "reference": "8d5b80030ac3f13df2d66aeef0ea388fd9a90632",
                 "shasum": ""
             },
             "require": {
@@ -3260,6 +3260,7 @@
                     "merge-extra": false
                 },
                 "patches_applied": {
+                    "2998335 - [regression] \\Drupal\\user\\ContextProvider\\CurrentUserContext broken for anonymous users": "https://www.drupal.org/files/issues/2018-10-04/2998335-currentusercontext-16.patch",
                     "3032548 - ContentModerationRouteSubscriber assumes all parameters in an entity form route contain a 'type' key": "https://www.drupal.org/files/issues/2019-02-13/3032548-2.patch",
                     "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer": "https://www.drupal.org/files/issues/2885441-2.patch",
@@ -3310,7 +3311,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-03-14T22:08:21+00:00"
+            "time": "2019-03-20T06:01:19+00:00"
         },
         {
             "name": "drupal/crop",
@@ -4997,24 +4998,24 @@
         },
         {
             "name": "drupal/lightning_core",
-            "version": "3.8.0",
+            "version": "3.9.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/lightning_core",
-                "reference": "8.x-3.8"
+                "reference": "8.x-3.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/lightning_core-8.x-3.8.zip",
-                "reference": "8.x-3.8",
-                "shasum": "ba0f739e3a345d0a0381b04643cf936defa69bd7"
+                "url": "https://ftp.drupal.org/files/projects/lightning_core-8.x-3.9.zip",
+                "reference": "8.x-3.9",
+                "shasum": "0b862c3194d2394ac19a53b63b679be1c35331e0"
             },
             "require": {
                 "cweagans/composer-patches": "^1.6.4",
                 "drupal-composer/drupal-scaffold": "^2.0.0",
                 "drupal/acquia_connector": "^1.1",
                 "drupal/contact_storage": "^1.0",
-                "drupal/core": "~8.6.11",
+                "drupal/core": "~8.6.13",
                 "drupal/metatag": "^1.8",
                 "drupal/pathauto": "^1.3",
                 "drupal/search_api": "^1.0",
@@ -5039,8 +5040,8 @@
                     "dev-8.x-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.8",
-                    "datestamp": "1552515185",
+                    "version": "8.x-3.9",
+                    "datestamp": "1553105284",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5077,6 +5078,7 @@
                 ],
                 "patches": {
                     "drupal/core": {
+                        "2998335 - [regression] \\Drupal\\user\\ContextProvider\\CurrentUserContext broken for anonymous users": "https://www.drupal.org/files/issues/2018-10-04/2998335-currentusercontext-16.patch",
                         "3032548 - ContentModerationRouteSubscriber assumes all parameters in an entity form route contain a 'type' key": "https://www.drupal.org/files/issues/2019-02-13/3032548-2.patch",
                         "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                         "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer": "https://www.drupal.org/files/issues/2885441-2.patch",
@@ -8870,12 +8872,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stephane-berube/wxt.git",
-                "reference": "76bbc15a856de3d17e4e6244492b4aa24cc867a1"
+                "reference": "7eea21d93d8590a345ba5b9b92cd5e5c7c857b32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stephane-berube/wxt/zipball/76bbc15a856de3d17e4e6244492b4aa24cc867a1",
-                "reference": "76bbc15a856de3d17e4e6244492b4aa24cc867a1",
+                "url": "https://api.github.com/repos/stephane-berube/wxt/zipball/7eea21d93d8590a345ba5b9b92cd5e5c7c857b32",
+                "reference": "7eea21d93d8590a345ba5b9b92cd5e5c7c857b32",
                 "shasum": ""
             },
             "require": {
@@ -8891,7 +8893,7 @@
                 "drupal/ckeditor_codemirror": "2.2",
                 "drupal/config_rewrite": "1.1",
                 "drupal/config_update": "1.6",
-                "drupal/core": "8.6.12",
+                "drupal/core": "8.6.13",
                 "drupal/ctools": "3.0",
                 "drupal/diff": "1.0-rc2",
                 "drupal/entity_reference_revisions": "1.6",
@@ -9090,7 +9092,7 @@
             "support": {
                 "source": "https://github.com/stephane-berube/wxt/tree/8.x-3.x"
             },
-            "time": "2019-03-20T15:04:08+00:00"
+            "time": "2019-03-20T19:35:28+00:00"
         },
         {
             "name": "drush/drush",
