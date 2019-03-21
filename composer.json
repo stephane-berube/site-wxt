@@ -54,6 +54,10 @@
         },
         {
             "type" : "vcs",
+            "url": "https://github.com/stephane-berube/wxt"
+        },
+        {
+            "type" : "vcs",
             "url": "https://github.com/stephane-berube/openid_connect"
         }
     ],
