@@ -28,6 +28,10 @@ class ISEDScriptHandler {
     $root = static::getDrupalRoot(getcwd());
 
     $cors = <<<'EOD'
+<IfModule mod_headers.c>
+  # X-Forwarded-For vs. Forwarded mismatch
+  RequestHeader unset Forwarded
+</IfModule>
 
 <FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
   <IfModule mod_headers.c>
