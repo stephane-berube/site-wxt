@@ -31,6 +31,8 @@ class ISEDScriptHandler {
 <IfModule mod_headers.c>
   # X-Forwarded-For vs. Forwarded mismatch
   RequestHeader unset Forwarded
+  # "Origin" varies due to font CORS below
+  Header merge Vary "Origin"
 </IfModule>
 
 <FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
