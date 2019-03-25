@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1abd87c20fdc2b6da07e426702a4b55",
+    "content-hash": "ae7093567e5cf899d5cece388909f7ad",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -2394,6 +2394,45 @@
                 "source": "http://cgit.drupalcode.org/admin_toolbar",
                 "issues": "https://www.drupal.org/project/issues/admin_toolbar"
             }
+        },
+        {
+            "name": "drupal/api_store",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stephane-berube/api_store.git",
+                "reference": "095be8c661d42d271ab8f57de558b96b56d6e498"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stephane-berube/api_store/zipball/095be8c661d42d271ab8f57de558b96b56d6e498",
+                "reference": "095be8c661d42d271ab8f57de558b96b56d6e498",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/core": "^8.6"
+            },
+            "type": "drupal-module",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Stephane Berube",
+                    "homepage": "https://github.com/stephane-berube",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Temporary module to API Store.",
+            "homepage": "https://github.com/stephane-berube/api_store",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "issues": "https://github.com/stephane-berube/api_store/issues",
+                "source": "https://github.com/stephane-berube/api_store"
+            },
+            "time": "2019-03-25T18:27:27+00:00"
         },
         {
             "name": "drupal/blazy",
@@ -18290,6 +18329,7 @@
         "drupalwxt/wxt": 20,
         "drupal/keycloak": 20,
         "drupal/openid_connect": 20,
+        "drupal/api_store": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": true,
