@@ -131,7 +131,7 @@
         "oomphinc/composer-installers-extender": "^1.1",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "drush/drush": "^9.0",
-        "drupalwxt/wxt": "dev-8.x-3.x",
+        "drupalwxt/wxt": "dev-8.x-3.x-test",
         "drupal/keycloak": "dev-custom",
         "drupal/responsive_preview": "^1.0",
         "drupal/openid_connect": "dev-custom as 1.x-dev",
