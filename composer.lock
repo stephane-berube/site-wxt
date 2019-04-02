@@ -2601,59 +2601,6 @@
             }
         },
         {
-            "name": "drupal/blog",
-            "version": "dev-2.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/blog",
-                "reference": "43a21717baa0e28888a40da5792601d33ecc016f"
-            },
-            "require": {
-                "drupal/core": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-2.x": "2.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-2.x-dev",
-                    "datestamp": "1483008184",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                },
-                "patches_applied": {
-                    "Enter drupal/blog patch #2834732 description here": "https://www.drupal.org/files/issues/blog-no_results_text-2834732-2.patch"
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Dave Reid",
-                    "homepage": "https://www.drupal.org/user/53892"
-                },
-                {
-                    "name": "chris_hall_hu_cheng",
-                    "homepage": "https://www.drupal.org/user/1580660"
-                },
-                {
-                    "name": "deekayen",
-                    "homepage": "https://www.drupal.org/user/972"
-                }
-            ],
-            "description": "Enables multi-user blogs.",
-            "homepage": "https://www.drupal.org/project/blog",
-            "support": {
-                "source": "http://cgit.drupalcode.org/blog"
-            },
-            "time": "2016-12-29T10:40:43+00:00"
-        },
-        {
             "name": "drupal/bootstrap",
             "version": "3.16.0",
             "source": {
