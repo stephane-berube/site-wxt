@@ -29,8 +29,6 @@ class ISEDScriptHandler {
 
     $cors = <<<'EOD'
 <IfModule mod_headers.c>
-  # X-Forwarded-For vs. Forwarded mismatch
-  RequestHeader unset Forwarded
   # "Origin" varies due to font CORS below
   Header merge Vary "Origin"
 </IfModule>
