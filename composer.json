@@ -63,6 +63,10 @@
         {
             "type" : "vcs",
             "url": "https://github.com/stephane-berube/openid_connect"
+        },
+        {
+            "type" : "vcs",
+            "url": "https://github.com/stephane-berube/wxt_api_store"
         }
     ],
     "scripts": {
@@ -135,7 +139,8 @@
         "drupal/keycloak": "dev-custom",
         "drupal/responsive_preview": "^1.0",
         "drupal/openid_connect": "dev-custom as 1.x-dev",
-        "drupal/api_store": "dev-master"
+        "drupal/api_store": "dev-master",
+        "drupal/wxt_api_store": "dev-master"
     },
     "autoload": {
         "classmap": [

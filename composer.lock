@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae7093567e5cf899d5cece388909f7ad",
+    "content-hash": "19c63bef19913200a276d8d4dfc8aee2",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -228,7 +228,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/fengyuanchen/cropper/zipball/30c58b29ee21010e17e58ebab165fbd84285c685",
-                "reference": "30c58b29ee21010e17e58ebab165fbd84285c685"
+                "reference": "30c58b29ee21010e17e58ebab165fbd84285c685",
+                "shasum": null
             },
             "type": "bower-asset",
             "license": [
@@ -246,7 +247,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/enyo/dropzone/zipball/08b9e0a763b54a685404dea523a9c54242fbe1b9",
-                "reference": "08b9e0a763b54a685404dea523a9c54242fbe1b9"
+                "reference": "08b9e0a763b54a685404dea523a9c54242fbe1b9",
+                "shasum": null
             },
             "type": "bower-asset"
         },
@@ -261,7 +263,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/9e8ec3d10fad04748176144f108d7355662ae75e",
-                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
+                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e",
+                "shasum": null
             },
             "type": "bower-asset",
             "license": [
@@ -279,7 +282,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/kenwheeler/slick/zipball/0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
-                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
+                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
@@ -2346,7 +2350,7 @@
             "description": "Allows Drupal websites to connect with Acquia.",
             "homepage": "https://www.drupal.org/project/acquia_connector",
             "support": {
-                "source": "https://git.drupalcode.org/project/acquia_connector"
+                "source": "http://cgit.drupalcode.org/acquia_connector"
             }
         },
         {
@@ -2998,7 +3002,7 @@
             "description": "Declare all the consumers of your API",
             "homepage": "https://www.drupal.org/project/consumers",
             "support": {
-                "source": "https://git.drupalcode.org/project/consumers"
+                "source": "http://cgit.drupalcode.org/consumers"
             }
         },
         {
@@ -3414,7 +3418,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0",
-                    "datestamp": "1493401742",
+                    "datestamp": "1549603381",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3504,7 +3508,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0",
-                    "datestamp": "1493401742",
+                    "datestamp": "1549603381",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4538,7 +4542,7 @@
             "description": "The web's most popular icon set and toolkit.",
             "homepage": "https://www.drupal.org/project/fontawesome",
             "support": {
-                "source": "https://git.drupalcode.org/project/fontawesome"
+                "source": "http://cgit.drupalcode.org/fontawesome"
             }
         },
         {
@@ -5014,7 +5018,7 @@
             "description": "Progressive decoupling? No problem.",
             "homepage": "https://www.drupal.org/project/lightning_api",
             "support": {
-                "source": "https://git.drupalcode.org/project/lightning_api"
+                "source": "http://cgit.drupalcode.org/lightning_api"
             }
         },
         {
@@ -5156,7 +5160,7 @@
             "description": "Shared functionality for the Lightning distribution.",
             "homepage": "https://www.drupal.org/project/lightning_core",
             "support": {
-                "source": "https://git.drupalcode.org/project/lightning_core"
+                "source": "http://cgit.drupalcode.org/lightning_core"
             }
         },
         {
@@ -5281,7 +5285,7 @@
             "description": "Provides the tools to take control of your layout.",
             "homepage": "https://www.drupal.org/project/lightning_layout",
             "support": {
-                "source": "https://git.drupalcode.org/project/lightning_layout"
+                "source": "http://cgit.drupalcode.org/lightning_layout"
             }
         },
         {
@@ -5425,7 +5429,7 @@
             "description": "Slick media handling for Lightning. So cool you'll make the A/C jealous.",
             "homepage": "https://www.drupal.org/project/lightning_media",
             "support": {
-                "source": "https://git.drupalcode.org/project/lightning_media"
+                "source": "http://cgit.drupalcode.org/lightning_media"
             }
         },
         {
@@ -5542,7 +5546,7 @@
             "description": "Tools to improve your content workflow.",
             "homepage": "https://www.drupal.org/project/lightning_workflow",
             "support": {
-                "source": "https://git.drupalcode.org/project/lightning_workflow"
+                "source": "http://cgit.drupalcode.org/lightning_workflow"
             }
         },
         {
@@ -6300,6 +6304,9 @@
                     "services": {
                         "drush.services.yml": "^9"
                     }
+                },
+                "patches_applied": {
+                    "Enter drupal/migrate_tools patch #3024399 description here": "https://www.drupal.org/files/issues/2019-02-05/migrate-tools_fix-drush-options_3024399-23.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -7088,7 +7095,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.6",
-                    "datestamp": "1553087589",
+                    "datestamp": "1550692525",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7127,7 +7134,7 @@
             "description": "Enables the creation of Paragraphs entities.",
             "homepage": "https://www.drupal.org/project/paragraphs",
             "support": {
-                "source": "https://git.drupalcode.org/project/paragraphs"
+                "source": "http://cgit.drupalcode.org/paragraphs"
             }
         },
         {
@@ -7795,7 +7802,7 @@
             "description": "The Simple OAuth module for Drupal",
             "homepage": "https://www.drupal.org/project/simple_oauth",
             "support": {
-                "source": "https://git.drupalcode.org/project/simple_oauth"
+                "source": "http://cgit.drupalcode.org/simple_oauth"
             }
         },
         {
@@ -7836,7 +7843,7 @@
             "description": "OAuth2 extra access grants.",
             "homepage": "https://www.drupal.org/project/simple_oauth",
             "support": {
-                "source": "https://git.drupalcode.org/project/simple_oauth"
+                "source": "http://cgit.drupalcode.org/simple_oauth"
             }
         },
         {
@@ -8697,6 +8704,45 @@
             }
         },
         {
+            "name": "drupal/wxt_api_store",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stephane-berube/wxt_api_store.git",
+                "reference": "e76e6f1dbfdd413ba1868c3563250a6803c004be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stephane-berube/wxt_api_store/zipball/e76e6f1dbfdd413ba1868c3563250a6803c004be",
+                "reference": "e76e6f1dbfdd413ba1868c3563250a6803c004be",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/core": "^8.6"
+            },
+            "type": "drupal-theme",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Stephane Berube",
+                    "homepage": "https://github.com/stephane-berube",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "wxt_bootstrap subtheme for the API Store",
+            "homepage": "https://github.com/stephane-berube/wxt_api_store",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "issues": "https://github.com/stephane-berube/wxt_api_store/issues",
+                "source": "https://github.com/stephane-berube/wxt_api_store"
+            },
+            "time": "2019-04-17T12:01:31+00:00"
+        },
+        {
             "name": "drupal/wxt_bootstrap",
             "version": "dev-2.x",
             "source": {
@@ -8717,7 +8763,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.x-dev",
-                    "datestamp": "1551065888",
+                    "datestamp": "1551056584",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -8785,7 +8831,7 @@
             "description": "WxT Bootstrap theme for Drupal WxT.",
             "homepage": "https://www.drupal.org/project/wxt_bootstrap",
             "support": {
-                "source": "https://git.drupalcode.org/project/wxt_bootstrap"
+                "source": "http://cgit.drupalcode.org/wxt_bootstrap"
             },
             "time": "2019-02-25T03:36:49+00:00"
         },
@@ -8816,7 +8862,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.x-dev",
-                    "datestamp": "1547437681",
+                    "datestamp": "1547170380",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -8884,7 +8930,7 @@
             "description": "Registers WxT Bootstrap using native libraries.",
             "homepage": "https://www.drupal.org/project/wxt_library",
             "support": {
-                "source": "https://git.drupalcode.org/project/wxt_library"
+                "source": "http://cgit.drupalcode.org/wxt_library"
             },
             "time": "2019-01-14T03:46:56+00:00"
         },
@@ -9111,7 +9157,7 @@
             ],
             "description": "Project template for Drupal 8 sites built with the WxT distribution.",
             "support": {
-                "source": "https://github.com/stephane-berube/wxt/tree/8.x-3.x"
+                "source": "https://github.com/stephane-berube/wxt/tree/8.x-3.x-test"
             },
             "time": "2019-04-01T18:15:48+00:00"
         },
@@ -12671,7 +12717,8 @@
             "dist": {
                 "type": "tar",
                 "url": "https://github.com/w8tcha/CKEditor-CodeMirror-Plugin/archive/1.16.tar.gz",
-                "reference": "1.16"
+                "reference": "1.16",
+                "shasum": null
             },
             "type": "drupal-library"
         },
@@ -12820,7 +12867,8 @@
             "dist": {
                 "type": "tar",
                 "url": "https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-base.tar.gz",
-                "reference": "v4.0.27-theme-base"
+                "reference": "v4.0.27-theme-base",
+                "shasum": null
             },
             "type": "drupal-library"
         },
@@ -12835,7 +12883,8 @@
             "dist": {
                 "type": "tar",
                 "url": "https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-gc-intranet.tar.gz",
-                "reference": "v4.0.27-theme-gc-intranet"
+                "reference": "v4.0.27-theme-gc-intranet",
+                "shasum": null
             },
             "type": "drupal-library"
         },
@@ -12850,7 +12899,8 @@
             "dist": {
                 "type": "tar",
                 "url": "https://github.com/drupalwxt/themes-dist/releases/download/v4.0.30-gcweb/gcweb.tar.gz",
-                "reference": "v4.0.30"
+                "reference": "v4.0.30",
+                "shasum": null
             },
             "type": "drupal-library"
         },
@@ -12865,7 +12915,8 @@
             "dist": {
                 "type": "tar",
                 "url": "https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-gcwu-fegc.tar.gz",
-                "reference": "v4.0.27-theme-gcwu-fegc"
+                "reference": "v4.0.27-theme-gcwu-fegc",
+                "shasum": null
             },
             "type": "drupal-library"
         },
@@ -12880,7 +12931,8 @@
             "dist": {
                 "type": "tar",
                 "url": "https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-ogpl.tar.gz",
-                "reference": "v4.0.27-theme-ogpl"
+                "reference": "v4.0.27-theme-ogpl",
+                "shasum": null
             },
             "type": "drupal-library"
         },
@@ -12895,7 +12947,8 @@
             "dist": {
                 "type": "tar",
                 "url": "https://github.com/wet-boew/themes-cdn/archive/v4.0.29-theme-wet-boew.tar.gz",
-                "reference": "v4.0.29-theme-wet-boew"
+                "reference": "v4.0.29-theme-wet-boew",
+                "shasum": null
             },
             "type": "drupal-library"
         },
@@ -12910,7 +12963,8 @@
             "dist": {
                 "type": "tar",
                 "url": "https://github.com/wet-boew/wet-boew-cdn/archive/v4.0.30.tar.gz",
-                "reference": "v4.0.30"
+                "reference": "v4.0.30",
+                "shasum": null
             },
             "type": "drupal-library"
         },
@@ -16011,6 +16065,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2018-08-09T05:50:03+00:00"
         },
         {
@@ -18307,6 +18362,7 @@
         "drupal/keycloak": 20,
         "drupal/openid_connect": 20,
         "drupal/api_store": 20,
+        "drupal/wxt_api_store": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": true,
