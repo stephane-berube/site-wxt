@@ -31,6 +31,15 @@ class ISEDScriptHandler {
 <IfModule mod_headers.c>
   # "Origin" varies due to font CORS below
   Header merge Vary "Origin"
+
+  # HSTS
+  Header always set Strict-Transport-Security "max-age=63072000;"
+
+  # Mostly for observatory.mozilla.org
+  Header always set X-XSS-Protection "1; mode=block"
+
+  # CSP
+  Header always set Content-Security-Policy "default-src 'none'; font-src 'self' https://fonts.gstatic.com; img-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; connect-src 'self'; object-src 'self'; frame-src https://sso-dev.ised-isde.canada.ca 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
 </IfModule>
 
 <FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
@@ -40,7 +49,6 @@ class ISEDScriptHandler {
     #
     SetEnvIf Origin ^(https?://(.+\.)?(ised-isde|api)\.canada\.ca(?::\d{1,5})?)$   CORS_ALLOW_ORIGIN=$1
     Header append Access-Control-Allow-Origin  %{CORS_ALLOW_ORIGIN}e   env=CORS_ALLOW_ORIGIN
-    Header merge  Vary "Origin"
   </IfModule>
 </FilesMatch>
 EOD;
