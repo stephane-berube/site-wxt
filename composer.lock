@@ -4870,6 +4870,9 @@
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "2882709 - Misnamed interface causes \"Fatal error: Cannot declare interface Drupal\\libraries\\ExternalLibrary\\Utility\\LibraryAccessorIdInterface\"": "https://www.drupal.org/files/issues/2882709-2-interface-libraryidaccessorinterface-misnamed.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -4880,6 +4883,10 @@
                 {
                     "name": "Pol",
                     "homepage": "https://www.drupal.org/user/47194"
+                },
+                {
+                    "name": "joseph.olstad",
+                    "homepage": "https://www.drupal.org/user/1321830"
                 },
                 {
                     "name": "rjacobs",
@@ -8786,12 +8793,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stephane-berube/wxt_api_store.git",
-                "reference": "e76e6f1dbfdd413ba1868c3563250a6803c004be"
+                "reference": "2ad517730f71188459bfe938990f3fa704e3239f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stephane-berube/wxt_api_store/zipball/e76e6f1dbfdd413ba1868c3563250a6803c004be",
-                "reference": "e76e6f1dbfdd413ba1868c3563250a6803c004be",
+                "url": "https://api.github.com/repos/stephane-berube/wxt_api_store/zipball/2ad517730f71188459bfe938990f3fa704e3239f",
+                "reference": "2ad517730f71188459bfe938990f3fa704e3239f",
                 "shasum": ""
             },
             "require": {
@@ -8817,7 +8824,7 @@
                 "issues": "https://github.com/stephane-berube/wxt_api_store/issues",
                 "source": "https://github.com/stephane-berube/wxt_api_store"
             },
-            "time": "2019-04-17T12:01:31+00:00"
+            "time": "2019-07-26T18:04:19+00:00"
         },
         {
             "name": "drupal/wxt_bootstrap",
