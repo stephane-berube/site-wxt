@@ -61,15 +61,7 @@
         },
         {
             "type" : "vcs",
-            "url": "https://github.com/stephane-berube/api_store"
-        },
-        {
-            "type" : "vcs",
             "url": "https://github.com/stephane-berube/openid_connect"
-        },
-        {
-            "type" : "vcs",
-            "url": "https://github.com/stephane-berube/wxt_api_store"
         }
     ],
     "scripts": {
@@ -82,13 +74,11 @@
       ],
       "post-install-cmd": [
           "@composer drupal-scaffold",
-          "DrupalWxT\\WxT\\ScriptHandler::deployLibraries",
-          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::editHtaccess"
+          "DrupalWxT\\WxT\\ScriptHandler::deployLibraries"
       ],
       "post-update-cmd": [
           "@composer drupal-scaffold",
-          "DrupalWxT\\WxT\\ScriptHandler::deployLibraries",
-          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::editHtaccess"
+          "DrupalWxT\\WxT\\ScriptHandler::deployLibraries"
       ]
     },
     "extra": {
@@ -139,16 +129,13 @@
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "drush/drush": "^9.0",
         "drupalwxt/wxt": "dev-8.x-2.x",
-        "drupal/keycloak": "dev-custom",
+        "drupal/keycloak": "dev-8.x-1.x",
         "drupal/responsive_preview": "^1.0",
-        "drupal/openid_connect": "dev-custom as 1.x-dev",
-        "drupal/api_store": "dev-master",
-        "drupal/wxt_api_store": "dev-master"
+        "drupal/openid_connect": "dev-8.x-1.x as 1.x-dev"
     },
     "autoload": {
         "classmap": [
-            "scripts/ScriptHandler.php",
-            "scripts/ISEDScriptHandler.php"
+            "scripts/ScriptHandler.php"
         ]
     }
 }
