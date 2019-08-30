@@ -32,6 +32,10 @@ class ISEDScriptHandler {
   # "Origin" varies due to font CORS below
   Header merge Vary "Origin"
 
+  # X-Content-Type-Options is showing up as duplicate (possibly set upstream)
+  # so unset it here
+  Header unset X-Content-Type-Options
+
   # HSTS
   Header always set Strict-Transport-Security "max-age=63072000;"
 
