@@ -8805,12 +8805,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stephane-berube/wxt_api_store.git",
-                "reference": "2ad517730f71188459bfe938990f3fa704e3239f"
+                "reference": "5ad0c938fdaeac81dddbacb6ae1f6305c10fdb34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stephane-berube/wxt_api_store/zipball/2ad517730f71188459bfe938990f3fa704e3239f",
-                "reference": "2ad517730f71188459bfe938990f3fa704e3239f",
+                "url": "https://api.github.com/repos/stephane-berube/wxt_api_store/zipball/5ad0c938fdaeac81dddbacb6ae1f6305c10fdb34",
+                "reference": "5ad0c938fdaeac81dddbacb6ae1f6305c10fdb34",
                 "shasum": ""
             },
             "require": {
@@ -8836,7 +8836,7 @@
                 "issues": "https://github.com/stephane-berube/wxt_api_store/issues",
                 "source": "https://github.com/stephane-berube/wxt_api_store"
             },
-            "time": "2019-07-26T18:04:19+00:00"
+            "time": "2019-08-30T17:51:59+00:00"
         },
         {
             "name": "drupal/wxt_bootstrap",
@@ -14359,7 +14359,7 @@
             "version": "8.2.12",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/coder.git",
+                "url": "https://git.drupalcode.org/project/coder.git",
                 "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f"
             },
             "require": {
