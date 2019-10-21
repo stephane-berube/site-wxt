@@ -62,4 +62,12 @@ EOD;
 
     file_put_contents($root . '/.htaccess', $cors, FILE_APPEND);
   }
+
+  public static function serverTokens(Event $event) {
+      file_put_contents(
+          '/opt/app-root/etc/conf.d/60-server-tokens.conf',
+          'ServerTokens Prod',
+          FILE_APPEND
+      );
+  }
 }

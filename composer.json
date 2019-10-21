@@ -80,12 +80,14 @@
       "post-install-cmd": [
           "@composer drupal-scaffold",
           "DrupalWxT\\WxT\\ScriptHandler::deployLibraries",
-          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::editHtaccess"
+          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::editHtaccess",
+          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::serverTokens"
       ],
       "post-update-cmd": [
           "@composer drupal-scaffold",
           "DrupalWxT\\WxT\\ScriptHandler::deployLibraries",
-          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::editHtaccess"
+          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::editHtaccess",
+          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::serverTokens"
       ]
     },
     "extra": {
