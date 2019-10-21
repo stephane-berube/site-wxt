@@ -46,6 +46,14 @@ class ISEDScriptHandler {
   Header always set Content-Security-Policy "default-src 'none'; font-src 'self' https://fonts.gstatic.com; img-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; connect-src 'self'; object-src 'self'; frame-src https://sso-dev.ised-isde.canada.ca 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
 </IfModule>
 
+# Disable TRACE/TRACK methods
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK)
+  RewriteRule .* - [F]
+</IfModule>
+
 <FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
   <IfModule mod_headers.c>
     ## Set CORS for ised.canada.ca, api.canada.ca and all of their subdomains
