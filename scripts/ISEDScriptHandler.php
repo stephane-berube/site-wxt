@@ -70,4 +70,12 @@ EOD;
           FILE_APPEND
       );
   }
+
+  public static function disableTrace(Event $event) {
+      file_put_contents(
+          '/opt/app-root/etc/conf.d/61-disable-trace.conf',
+          'TraceEnable Off',
+          FILE_APPEND
+      );
+  }
 }
