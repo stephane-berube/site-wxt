@@ -39,7 +39,7 @@ class ISEDScriptHandler {
   # HSTS
   Header always set Strict-Transport-Security "max-age=63072000;"
 
-  # Mostly for observatory.mozilla.org
+  # Cross-site scripting protection
   Header always set X-XSS-Protection "1; mode=block"
 
   # CSP
@@ -55,10 +55,17 @@ class ISEDScriptHandler {
     Header append Access-Control-Allow-Origin  %{CORS_ALLOW_ORIGIN}e   env=CORS_ALLOW_ORIGIN
   </IfModule>
 </FilesMatch>
-EOD;
 
-    // 'Undefined method'
-    // $fs->appendToFile($root . '/.htaccess', $cors);
+# Deny access to potentially sensitive files
+<FilesMatch "web.config">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+  </IfModule>
+</FilesMatch>
+EOD;
 
     file_put_contents($root . '/.htaccess', $cors, FILE_APPEND);
   }
