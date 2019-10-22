@@ -81,13 +81,15 @@
           "@composer drupal-scaffold",
           "DrupalWxT\\WxT\\ScriptHandler::deployLibraries",
           "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::editHtaccess",
-          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::serverTokens"
+          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::serverTokens",
+          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::disableTrace"
       ],
       "post-update-cmd": [
           "@composer drupal-scaffold",
           "DrupalWxT\\WxT\\ScriptHandler::deployLibraries",
           "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::editHtaccess",
-          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::serverTokens"
+          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::serverTokens",
+          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::disableTrace"
       ]
     },
     "extra": {
