@@ -80,12 +80,16 @@
       "post-install-cmd": [
           "@composer drupal-scaffold",
           "DrupalWxT\\WxT\\ScriptHandler::deployLibraries",
-          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::editHtaccess"
+          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::editHtaccess",
+          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::serverTokens",
+          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::disableTrace"
       ],
       "post-update-cmd": [
           "@composer drupal-scaffold",
           "DrupalWxT\\WxT\\ScriptHandler::deployLibraries",
-          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::editHtaccess"
+          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::editHtaccess",
+          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::serverTokens",
+          "ISEDDrupalWxT\\WxT\\ISEDScriptHandler::disableTrace"
       ]
     },
     "extra": {
@@ -146,7 +150,8 @@
         "drupal/openid_connect": "dev-custom as 1.x-dev",
         "drupal/api_store": "dev-master",
         "drupal/wxt_api_store": "dev-master",
-        "drupal/robotstxt": "^1.2"
+        "drupal/robotstxt": "^1.2",
+        "drupal/disable_user_view": "^1.2"
     },
     "autoload": {
         "classmap": [
