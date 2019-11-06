@@ -8852,12 +8852,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stephane-berube/wxt_api_store.git",
-                "reference": "853680f906a9af61d5103c10e91c28b0f56a3bb7"
+                "reference": "d2c31ac3da6435f674d1496af93da259a4073dc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stephane-berube/wxt_api_store/zipball/853680f906a9af61d5103c10e91c28b0f56a3bb7",
-                "reference": "853680f906a9af61d5103c10e91c28b0f56a3bb7",
+                "url": "https://api.github.com/repos/stephane-berube/wxt_api_store/zipball/d2c31ac3da6435f674d1496af93da259a4073dc1",
+                "reference": "d2c31ac3da6435f674d1496af93da259a4073dc1",
                 "shasum": ""
             },
             "require": {
@@ -8883,7 +8883,7 @@
                 "issues": "https://github.com/stephane-berube/wxt_api_store/issues",
                 "source": "https://github.com/stephane-berube/wxt_api_store"
             },
-            "time": "2019-11-06T16:54:47+00:00"
+            "time": "2019-11-06T19:04:26+00:00"
         },
         {
             "name": "drupal/wxt_bootstrap",
@@ -16662,12 +16662,12 @@
             "version": "v0.4.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/reactphp/react.git",
+                "url": "https://github.com/reactphp/reactphp.git",
                 "reference": "457b6b8a16a37c11278cac0870d6d2ff911c5765"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/react/zipball/457b6b8a16a37c11278cac0870d6d2ff911c5765",
+                "url": "https://api.github.com/repos/reactphp/reactphp/zipball/457b6b8a16a37c11278cac0870d6d2ff911c5765",
                 "reference": "457b6b8a16a37c11278cac0870d6d2ff911c5765",
                 "shasum": ""
             },
