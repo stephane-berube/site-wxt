@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d2529f7637a8e00108035bc9e91c38b9",
+    "content-hash": "debd9d6f841063da1685367d4067ed99",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -223,7 +223,7 @@
             "version": "v2.3.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fengyuanchen/cropper.git",
+                "url": "git@github.com:fengyuanchen/cropper.git",
                 "reference": "30c58b29ee21010e17e58ebab165fbd84285c685"
             },
             "dist": {
@@ -277,7 +277,7 @@
             "version": "v1.8.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kenwheeler/slick.git",
+                "url": "git@github.com:kenwheeler/slick.git",
                 "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
             },
             "dist": {
@@ -2437,16 +2437,16 @@
         },
         {
             "name": "drupal/api_store",
-            "version": "dev-master",
+            "version": "dev-multiple-endpoint-sets",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stephane-berube/api_store.git",
-                "reference": "4d426f529b56520244103eb210809fca322efce1"
+                "reference": "416b09805d1f7ef38c715be891bcd96cc0418cc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stephane-berube/api_store/zipball/4d426f529b56520244103eb210809fca322efce1",
-                "reference": "4d426f529b56520244103eb210809fca322efce1",
+                "url": "https://api.github.com/repos/stephane-berube/api_store/zipball/416b09805d1f7ef38c715be891bcd96cc0418cc1",
+                "reference": "416b09805d1f7ef38c715be891bcd96cc0418cc1",
                 "shasum": ""
             },
             "require": {
@@ -2472,7 +2472,7 @@
                 "issues": "https://github.com/stephane-berube/api_store/issues",
                 "source": "https://github.com/stephane-berube/api_store"
             },
-            "time": "2019-04-25T11:46:29+00:00"
+            "time": "2019-11-06T16:54:57+00:00"
         },
         {
             "name": "drupal/blazy",
@@ -8848,16 +8848,16 @@
         },
         {
             "name": "drupal/wxt_api_store",
-            "version": "dev-master",
+            "version": "dev-multiple-endpoint-sets",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stephane-berube/wxt_api_store.git",
-                "reference": "5ad0c938fdaeac81dddbacb6ae1f6305c10fdb34"
+                "reference": "853680f906a9af61d5103c10e91c28b0f56a3bb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stephane-berube/wxt_api_store/zipball/5ad0c938fdaeac81dddbacb6ae1f6305c10fdb34",
-                "reference": "5ad0c938fdaeac81dddbacb6ae1f6305c10fdb34",
+                "url": "https://api.github.com/repos/stephane-berube/wxt_api_store/zipball/853680f906a9af61d5103c10e91c28b0f56a3bb7",
+                "reference": "853680f906a9af61d5103c10e91c28b0f56a3bb7",
                 "shasum": ""
             },
             "require": {
@@ -8883,7 +8883,7 @@
                 "issues": "https://github.com/stephane-berube/wxt_api_store/issues",
                 "source": "https://github.com/stephane-berube/wxt_api_store"
             },
-            "time": "2019-08-30T17:51:59+00:00"
+            "time": "2019-11-06T16:54:47+00:00"
         },
         {
             "name": "drupal/wxt_bootstrap",
