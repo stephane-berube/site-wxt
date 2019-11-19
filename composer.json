@@ -58,7 +58,7 @@
         },
         {
             "type" : "vcs",
-            "url": "https://github.com/stephane-berube/api_store"
+            "url": "https://github.com/ised-isde-canada/api_store"
         },
         {
             "type" : "vcs",
@@ -66,7 +66,7 @@
         },
         {
             "type" : "vcs",
-            "url": "https://github.com/stephane-berube/wxt_api_store"
+            "url": "https://github.com/ised-isde-canada/wxt_api_store"
         }
     ],
     "scripts": {
