@@ -43,7 +43,7 @@ class ISEDScriptHandler {
   Header always set X-XSS-Protection "1; mode=block"
 
   # CSP
-  Header always set Content-Security-Policy "default-src 'none'; font-src 'self' https://fonts.gstatic.com; img-src 'self'; script-src 'self' https://jira.ised-isde.canada.ca; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; connect-src 'self'; object-src 'self'; frame-src https://sso-dev.ised-isde.canada.ca 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
+  Header always set Content-Security-Policy "default-src 'none'; font-src 'self' https://fonts.gstatic.com; img-src https://jira.ised-isde.canada.ca 'self'; script-src 'self' https://jira.ised-isde.canada.ca; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; connect-src 'self'; object-src 'self'; frame-src https://sso-dev.ised-isde.canada.ca https://jira.ised-isde.canada.ca 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
 </IfModule>
 
 <FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
