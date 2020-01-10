@@ -148,7 +148,7 @@
         "drupal/keycloak": "dev-custom",
         "drupal/responsive_preview": "^1.0",
         "drupal/openid_connect": "dev-custom as 1.x-dev",
-        "drupal/api_store": "dev-multiple-endpoint-sets",
+        "drupal/api_store": "dev-form-submit",
         "drupal/wxt_api_store": "dev-multiple-endpoint-sets",
         "drupal/robotstxt": "^1.2",
         "drupal/disable_user_view": "^1.2"
