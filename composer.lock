@@ -2442,12 +2442,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ised-isde-canada/api_store.git",
-                "reference": "89e7937a49a5965c468712881e12244a619e00ab"
+                "reference": "611b201495982dfd24112a5439ebbdb8199e7f55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ised-isde-canada/api_store/zipball/89e7937a49a5965c468712881e12244a619e00ab",
-                "reference": "89e7937a49a5965c468712881e12244a619e00ab",
+                "url": "https://api.github.com/repos/ised-isde-canada/api_store/zipball/611b201495982dfd24112a5439ebbdb8199e7f55",
+                "reference": "611b201495982dfd24112a5439ebbdb8199e7f55",
                 "shasum": ""
             },
             "require": {
@@ -2473,7 +2473,7 @@
                 "issues": "https://github.com/stephane-berube/api_store/issues",
                 "source": "https://github.com/stephane-berube/api_store"
             },
-            "time": "2020-01-10T15:29:07+00:00"
+            "time": "2020-01-10T20:12:17+00:00"
         },
         {
             "name": "drupal/blazy",
@@ -8853,12 +8853,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ised-isde-canada/wxt_api_store.git",
-                "reference": "a43de32f6a520d3427f070412b3c6920d0766208"
+                "reference": "4929d37e2669baf2503fdeaba4d0131a1d535981"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ised-isde-canada/wxt_api_store/zipball/a43de32f6a520d3427f070412b3c6920d0766208",
-                "reference": "a43de32f6a520d3427f070412b3c6920d0766208",
+                "url": "https://api.github.com/repos/ised-isde-canada/wxt_api_store/zipball/4929d37e2669baf2503fdeaba4d0131a1d535981",
+                "reference": "4929d37e2669baf2503fdeaba4d0131a1d535981",
                 "shasum": ""
             },
             "require": {
@@ -8884,7 +8884,7 @@
                 "issues": "https://github.com/stephane-berube/wxt_api_store/issues",
                 "source": "https://github.com/stephane-berube/wxt_api_store"
             },
-            "time": "2020-01-13T18:56:30+00:00"
+            "time": "2020-01-13T19:41:51+00:00"
         },
         {
             "name": "drupal/wxt_bootstrap",
