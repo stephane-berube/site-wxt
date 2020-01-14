@@ -258,7 +258,7 @@
             "version": "3.4.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "15bc73803f76bc53b654b9fdbbbc096f56d7c03d"
             },
             "dist": {
@@ -8853,12 +8853,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ised-isde-canada/wxt_api_store.git",
-                "reference": "4929d37e2669baf2503fdeaba4d0131a1d535981"
+                "reference": "7e720edab233d77a80b3549c402e7fbdd001ea44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ised-isde-canada/wxt_api_store/zipball/4929d37e2669baf2503fdeaba4d0131a1d535981",
-                "reference": "4929d37e2669baf2503fdeaba4d0131a1d535981",
+                "url": "https://api.github.com/repos/ised-isde-canada/wxt_api_store/zipball/7e720edab233d77a80b3549c402e7fbdd001ea44",
+                "reference": "7e720edab233d77a80b3549c402e7fbdd001ea44",
                 "shasum": ""
             },
             "require": {
@@ -8884,7 +8884,7 @@
                 "issues": "https://github.com/stephane-berube/wxt_api_store/issues",
                 "source": "https://github.com/stephane-berube/wxt_api_store"
             },
-            "time": "2020-01-13T19:41:51+00:00"
+            "time": "2020-01-14T15:09:55+00:00"
         },
         {
             "name": "drupal/wxt_bootstrap",
